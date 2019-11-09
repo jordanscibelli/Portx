@@ -1,16 +1,13 @@
 site:
-  title: PortX Demo Site
+  title: PortX Site
   url: https://demo.portx-demo-site.org
   start_page: index::index.adoc
 content:
   sources:
-    - url: ./modules/integration-hub-module/pages/integration-hub.adoc
+    - url: https://github.com/jordanscibelli/AS2-Connector.git
     - branches: master
     - start_path: docs
-    - url: ./as2-connector.adoc
-    - branches: master
-    - start_path: docs
-    - url: ./transaction-monitoring-module/pages/transaction-monitoring.adoc
+    - url: https://github.com/jordanscibelli/Integration-Hub.git
     - branches: master
     - start_path: docs
 ui:
