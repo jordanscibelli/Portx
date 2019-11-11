@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<sitemap>
+<loc>https://github.com/jordanscibelli/Portx.git/sitemap-as2-connector.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://github.com/jordanscibelli/Portx.git/sitemap-integration-hub.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://github.com/jordanscibelli/Portx.git/sitemap-portx.xml</loc>
+</sitemap>
+</sitemapindex>

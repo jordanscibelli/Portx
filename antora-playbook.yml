@@ -1,15 +1,18 @@
 site:
   title: PortX Site
-  url: https://demo.portx-demo-site.org
-  start_page: index::index.adoc
+  url: https://demo.portx.org
+  start_page: portx::index.adoc
 content:
   sources:
+    - url: https://github.com/jordanscibelli/Portx-Documentation.git
+      branches: master
+      start_path: docs
     - url: https://github.com/jordanscibelli/AS2-Connector.git
-    - branches: master
-    - start_path: docs
+      branches: master
+      start_path: docs
     - url: https://github.com/jordanscibelli/Integration-Hub.git
-    - branches: master
-    - start_path: docs
+      branches: master
+      start_path: docs
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
